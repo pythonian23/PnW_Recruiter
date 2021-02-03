@@ -38,7 +38,7 @@ public class Sender {
         dest = dest_;
     }
 
-    public boolean run() throws Exception {
+    public void run() throws Exception {
 
         url = new URL(url_text);
 
@@ -72,10 +72,6 @@ public class Sender {
                 System.out.println("FAILED!");
             }
 
-            return true;
-        }
-        else {
-            return false;
         }
 
     }
