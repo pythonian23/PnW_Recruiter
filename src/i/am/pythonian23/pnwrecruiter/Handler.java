@@ -25,7 +25,7 @@ public class Handler {
     }
 
     private static void readSavedData() { ;
-        File file = new File(System.getProperty("user.dir") + "\\savedData.txt");
+        File file = new File(System.getProperty("user.dir") + "/savedData.txt");
         try {
             Scanner scanner = new Scanner(file);
             StringBuilder contents = new StringBuilder();
@@ -44,7 +44,7 @@ public class Handler {
 
 
     private static void saveSavedData() {
-        File file = new File(System.getProperty("user.dir") + "\\savedData.txt");
+        File file = new File(System.getProperty("user.dir") + "/savedData.txt");
         try {
             BufferedWriter out = new BufferedWriter(new FileWriter(file));
             out.write(key);
@@ -58,7 +58,7 @@ public class Handler {
     }
 
     private static void getTitles() {
-        File file = new File(System.getProperty("user.dir") + "\\title.txt");
+        File file = new File(System.getProperty("user.dir") + "/title.txt");
         try {
             Scanner scanner = new Scanner(file);
             StringBuilder contents = new StringBuilder();
@@ -75,7 +75,7 @@ public class Handler {
     }
 
     private static void getBody() {
-        File file = new File(System.getProperty("user.dir") + "\\message.html");
+        File file = new File(System.getProperty("user.dir") + "/message.html");
         try {
             Scanner scanner = new Scanner(file);
             StringBuilder contents = new StringBuilder();

@@ -10,10 +10,10 @@ public class Main {
         System.out.println("This is going to take a while. Please wait...");
         Handler.getNewestNations();
 
-        System.out.println("Press Enter key to exit...");
-        try {
-            System.out.println(System.in.read());
-        }
-        catch(Exception ignored) {}
+//        System.out.println("Press Enter key to exit...");
+//        try {
+//            System.out.println(System.in.read());
+//        }
+//        catch(Exception ignored) {}
     }
 }

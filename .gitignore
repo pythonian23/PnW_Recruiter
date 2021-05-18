@@ -30,3 +30,7 @@ PnW_Recruiter.iml
 out/*
 message.html
 title.txt
+savedData.txt
+PnW_Recruiter/*
+!PnW_Recruiter/lib/*jar
+!PnW_Recruiter/PnW_Recruiter.jar
